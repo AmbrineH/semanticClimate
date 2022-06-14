@@ -1,4 +1,4 @@
-<h4> Collaborator: AH </h4>
+<h4 style= "color: red"> Collaborator: AH </h4>
 
 <h4> What is semanticClimate? </h4>
 In semanticClimate, we are attempting the conversion of IPCC documents into semantic form. 
@@ -14,3 +14,9 @@ The goal is to extract useful information from the IPCC documents so that crisp 
 
 Agriculture, Forestry and Other Land Uses. This chapter focuses on managed ecosystems and theri ability to offer mitigation opportunities for climate change.
 
+<h4> Work flow </h4> 
+
+<ul> Pdf to text (Pdf plumber in Python using tool developed by PMR) </ul> 
+<ul>Text to html to XML (Python) </ul>
+<ul> Docanalysis (Unsupervised named entity recognition) </ul>
+</div>
